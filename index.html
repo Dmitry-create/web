@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Datetime superapp</title>
+        <link rel="shortcut icon" href="#"/>
+        <script src="./src/main.js" type="module"></script>
+    </head>
+<body>
+
+        <form id="datecalc">
+            <h3>Калькулятор дат</h3>
+            <label>
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate" />
+            </label>
+            <label>
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate" />
+            </label>
+            <button type="submit">Расчитать промежуток</button>
+            <p id="datecalc__result"></p>
+        </form>
+
+    
+   
+    <br></br>
+<h1 class = "myclass">0</h1>
+<button id="Start">СТАРТ</button>
+<button id="Stop">СТОП</button>
+<label>
+    <strong>таймер (секунд)</strong>
+    <input id = "time" type ="number" name="time" />
+</label>
+<script>
+  
+// let el = document.querySelector(".myclass");
+// let start = document.getElementById('Start');
+// let stop = document.getElementById('Stop');
+// let val = document.getElementById('time');
+
+   
+// start.addEventListener("click", () => {
+//     let tik = 0;
+
+//     let intervalId = setTimeout(function tick() {
+//         if (val.value > tik) {
+//             el.innerHTML = tik;
+//             tik ++;
+//             intervalId = setTimeout(tick, 1000);
+//            if (val.value <= (tik+5)) {
+//             new Audio('./src/beep.mp3').play()
+//            } 
+           
+//         } else {   
+//             clearInterval(intervalId);
+//             console.log(tik);
+//             el.innerHTML =  `<p>время вышло</p>`;
+
+//         }
+//     }, 1000);
+
+//     stop.addEventListener("click", () => {
+//         clearInterval(intervalId);
+//         console.log(tik);
+//         el.innerHTML = tik; 
+//     });
+// });
+
+</script>
+</body>
+</html>
